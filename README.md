@@ -27,7 +27,7 @@ Using lazy
       -- configs for us. We won't use data, as everything is in it's own namespace (telescope
       -- defaults, as well as each extension).
       require("telescope").setup(opts)
-      require("telescope").load_extension "telescope-live-grep-oldfiles"
+      require("telescope").load_extension "live_grep_oldfiles"
     end,
   },
 

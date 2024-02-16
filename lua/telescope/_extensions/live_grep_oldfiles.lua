@@ -6,6 +6,6 @@ end
 return telescope.register_extension({
 	setup = require("telescope._extensions.live-grep-oldfiles.config").setup,
 	exports = {
-		list = require("telescope._extensions.live-grep-oldfiles.find"),
+		find = require("telescope._extensions.live-grep-oldfiles.find"),
 	},
 })
