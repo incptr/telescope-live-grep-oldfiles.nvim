@@ -36,7 +36,7 @@ Plug 'incptr/telescope-live-grep-oldfiles'
 You can call live-grep-oldfiles either directly as a command.
 
 ```lua
-require("telescope").extensions.live_grep_oldfiles.find()
+:lua require("telescope").extensions.live_grep_oldfiles.find()
 ```
 
 Or map it to a keybinding in your config.
